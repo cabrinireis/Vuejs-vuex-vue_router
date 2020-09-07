@@ -89,6 +89,7 @@ width: 100px;
 text-align: center;
 background: #000000;
 border-radius: 0px;
+border: initial;
 }
 
 .btn > i {

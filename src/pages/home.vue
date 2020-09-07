@@ -44,6 +44,11 @@ export default {
     margin: auto;
     width: 50%;
 }
+@media screen and (max-width: 425px) {
+    .center{
+        width: 90%;
+    }
+}
 .mystyle {
     display: block
 }

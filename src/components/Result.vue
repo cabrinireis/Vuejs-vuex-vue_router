@@ -111,8 +111,9 @@ export default {
     }
 .header { grid-area: header;
           margin: auto 30px; }
-.photo { grid-area: photo;
-width: 200px;
+.photo { 
+    grid-area: photo;
+    width: 200px;
     height: 200px; }
 .main { grid-area: main; }
 
@@ -146,5 +147,27 @@ i {
 .logo,
 .photo {
     margin: 0 30px;
+}
+
+@media screen and (max-width: 425px) {
+    .header{
+        margin: 0;
+    }
+    .photo{
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+    .list-icon{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .list-icon > li,
+    span{
+        display: flex;
+        align-items: center;
+    }
 }
 </style>

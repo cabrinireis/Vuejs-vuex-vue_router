@@ -29,6 +29,9 @@ export default {
   .title > span {
     font-size: 30px;
   }
+  .title{
+    text-align: center;
+  }
 }
 .show {
     display: block !important;
